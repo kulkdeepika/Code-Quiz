@@ -1,0 +1,113 @@
+body{
+    background-image: url("bg.png");
+}
+#topBar{
+    /* position: relative; */
+    max-width: 75%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: lightgray;
+}
+
+#main-body,#result{
+    max-width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: solid;
+    border-color: lightslategray;
+    background-color: lightsteelblue;
+    border-width: medium;
+    color: darkblue;
+    text-align: center;
+}
+
+a{
+    /* position: absolute; */
+    left:10%;
+    display:inline-block;
+    line-height: 1.5;
+}
+
+#timeDisplay{
+    position: absolute;
+    display:inline-block;
+    left: 60%;
+    line-height: 1.5;
+}
+
+#Qs{
+    min-height: 50%;
+    max-width: 60%;
+    border-style: solid;
+    border-color: lightslategray;
+    border-width: thick;
+    background-color: lightsteelblue;
+    margin-left: 18%;
+    margin-top: 5%;
+    color: darkblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* #result{
+    max-width: 50%;
+    margin-left:35%;
+} */
+
+#highScoresDiv{
+    max-width: 50%;
+    margin-left:25%;
+    margin-left:25%;
+   
+    margin-top: 5%;
+}
+#hsLink{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: lightgray;
+}
+
+#op1,#op2,#op3,#op4{
+    background-color: darkblue;
+    opacity: 0.7;
+    width: auto;
+    color: lightslategray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    font-size: large;
+}
+
+#options,#quest{
+    margin-left:20%;
+}
+
+#start,#submit,#goBack,#ClearHighscores{
+    background-color: darkblue;
+    opacity: 0.7;
+    color: lightslategray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    font-size: large;
+    border-style: inset;
+    margin:5%;
+    cursor: pointer;
+}
+
+#highScrList, #heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color: lightslategray;
+    margin:5%;
+    
+}
+
+#rightOrWrong{
+    margin-top: 2%;
+    margin-left: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-style: italic;
+    font-weight: bolder;
+    color: linen;
+}
