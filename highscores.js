@@ -30,6 +30,6 @@ function produceList()
 }
 
 goBack.addEventListener("click", () => {location.assign("index.html");});
-clearHS.addEventListener("click", () => {dataObject = ""; sortedObject = "";
+clearHS.addEventListener("click", () => {dataObject = []; sortedObject = [];
                                          localStorage.setItem("dataKey" , JSON.stringify(dataObject));
                                          hsList.innerHTML = "";});
