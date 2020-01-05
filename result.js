@@ -5,7 +5,7 @@ currentScr.textContent = JSON.parse(localStorage.getItem("currentScore"));
 var newScore = currentScr.textContent;
 
 function initializeLocalStorage(){
-    localStorage.removeItem("dataKey");
+    
     if(!("dataKey" in localStorage))
     { 
         var scoreData = [];
