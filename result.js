@@ -16,8 +16,14 @@ function initializeLocalStorage(){
 var submitBtn = document.querySelector("#submit");
 submitBtn.addEventListener("click", () => { event.preventDefault(); 
                                             initializeLocalStorage();
-
+                                            // debugger;
                                             var newInitials = document.querySelector("#initials").value;
+
+                                            if(newInitials === "")
+                                            {
+                                                alert("Please enter your initials to proceed");
+                                                return;
+                                            }
                                             
                                             var scoreData = JSON.parse(localStorage.getItem("dataKey"));
            
