@@ -43,6 +43,9 @@ var score=0;
 var msg = "";
 var iterations = 0;
 
+var RSound = document.querySelector("#RAns");
+var WSound = document.querySelector("#WAns");
+
 timerDisplay.textContent = timeLeft;
 
 function displayTimer(){
@@ -70,12 +73,14 @@ function goToNext(){
   {
     if(event.target.textContent === questions[i].answer) 
     {
-      msg = "Right Answer!"
+      msg = "Right Answer!";
+      RSound.play();
     }
     else
     {
       msg = "Wrong Answer!"
       timeLeft -= 15;
+      WSound.play();
     }
       
     //Don't try to fetch the entry that doesn't exist (i = length)
