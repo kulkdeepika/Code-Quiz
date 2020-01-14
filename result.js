@@ -16,7 +16,7 @@ function initializeLocalStorage(){
 var submitBtn = document.querySelector("#submit");
 submitBtn.addEventListener("click", () => { event.preventDefault(); 
                                             initializeLocalStorage();
-                                            // debugger;
+                                            
                                             var newInitials = document.querySelector("#initials").value;
 
                                             if(newInitials === "")
@@ -30,9 +30,6 @@ submitBtn.addEventListener("click", () => { event.preventDefault();
                                             scoreData.push({"name" : newInitials , "score" : newScore});
                                             localStorage.setItem("dataKey", JSON.stringify(scoreData));
                                             
-                                            console.log(scoreData);
-                                            console.log("score ", newScore);
-                                            console.log("name ", newInitials);
                                             location.assign("highscores.html")});
 
 
