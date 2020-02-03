@@ -1,4 +1,6 @@
 # Code-Quiz
+@ https://kulkdeepika.github.io/Code-Quiz
+
 This is the initial version of Javascript quiz app.
 
 ## Usage
