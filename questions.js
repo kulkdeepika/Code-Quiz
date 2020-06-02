@@ -97,8 +97,6 @@ function goToNext(){
     option3.textContent = questions[i].choices[2];
     option4.textContent = questions[i].choices[3];
     message.textContent = msg;
-    console.log(event);
-    console.log(i);
 
     var timeOutReturn1 = setTimeout(() => {
         message.textContent = "";

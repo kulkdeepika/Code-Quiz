@@ -26,7 +26,6 @@ function produceList()
 
     }
 
-    console.log(sortedObject);
 }
 
 goBack.addEventListener("click", () => {location.assign("index.html");});
